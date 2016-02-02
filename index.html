@@ -5,31 +5,65 @@
 	</head>
 	<body>
 		<div class="container">
-			<p>You are watching a video and you are on the fence about it. What do you do?</p>
-			<div><input id="1a" type="radio" name="1"><label for="1a">Like the video</label></div>
-			<div><input id="2a" type="radio" name="1"><label for="2a">Dislike the video</label></div>
-			<div><input id="3a" type="radio" name="1"><label for="3a">Neither</label></div>
-			<div><input id="4a" type="radio" name="1"><label for="4a">Be unprofessional</label></div>
-			
-			<p>After watching the video, you decide to leave a comment. What do you write about?</p>
-			<div><input id="1b" type="radio" name="2"><label for="1b">Make more music.</label></div>
-			<div><input id="2b" type="radio" name="2"><label for="2b">What he should do next.</label></div>
-			<div><input id="3b" type="radio" name="2"><label for="3b">Make a meme tutorial.</label></div>
-			<div><input id="4b" type="radio" name="2"><label for="4b">Something unprofessional</label>
-			
-			<p>Who is TheKingCam's biggest fan?</p>
-			<div><input id="1c" type="radio" name="3"><label for="1c">Daurna Normac</label></div>
-			<div><input id="2c" type="radio" name="3"><label for="2c">Barack Obama</label></div>
-			<div><input id="3c" type="radio" name="3"><label for="3c">KonyHawkProSlaver</label></div>
-			<div><input id="4c" type="radio" name="3"><label for="4c">Someone unprofessional.</label></div>
-			
-			<p>What do you say when you see someone who is being unprofessional?</p>
-			<div><input id="1d" type="radio" name="4"><label for="1d">Hey you're professional.</label></div>
-			<div><input id="2d" type="radio" name="4"><label for="2d">Hey you're partially professional.</label></div>
-			<div><input id="3d" type="radio" name="4"><label for="3d">Hey you're not very professional.</label></div>
-			<div><input id="4d" type="radio" name="4"><label for="4d">Also be unprofessional.</label></div>
+			<h1>How Professional Are You?</h1>
+			<h3>Find out through these simple questions.</h3>
+			<ol>
+				<li>You are watching a video and you are on the fence about it. What do you do?</li>
+				<div><input id="1a" type="radio" name="1"><label for="1a">Like the video</label></div>
+				<div><input id="2a" type="radio" name="1"><label for="2a">Dislike the video</label></div>
+				<div><input id="3a" type="radio" name="1"><label for="3a">Neither</label></div>
+				<div><input id="4a" type="radio" name="1"><label for="4a">Be unprofessional</label></div>
+				
+				<li>After watching the video, you decide to leave a comment. What do you write about?</li>
+				<div><input id="1b" type="radio" name="2"><label for="1b">Make more music.</label></div>
+				<div><input id="2b" type="radio" name="2"><label for="2b">What he should do next.</label></div>
+				<div><input id="3b" type="radio" name="2"><label for="3b">Make a meme tutorial.</label></div>
+				<div><input id="4b" type="radio" name="2"><label for="4b">Something unprofessional</label>
+				
+				<li>Who is TheKingCam's biggest fan?</li>
+				<div><input id="1c" type="radio" name="3"><label for="1c">Daurna Normac</label></div>
+				<div><input id="2c" type="radio" name="3"><label for="2c">Barack Obama</label></div>
+				<div><input id="3c" type="radio" name="3"><label for="3c">KonyHawkProSlaver</label></div>
+				<div><input id="4c" type="radio" name="3"><label for="4c">Someone unprofessional.</label></div>
+				
+				<li>What do you say when you see someone who is being unprofessional?</li>
+				<div><input id="1d" type="radio" name="4"><label for="1d">Hey you're professional.</label></div>
+				<div><input id="2d" type="radio" name="4"><label for="2d">Hey you're partially professional.</label></div>
+				<div><input id="3d" type="radio" name="4"><label for="3d">Hey you're not very professional.</label></div>
+				<div><input id="4d" type="radio" name="4"><label for="4d">Also be unprofessional.</label></div>
+			</ol>
 		</div>
 	</body>
 	<style>
+		body, html {
+			margin:0;
+			padding:0;
+			min-height:100%;
+		}
+		body {
+			background:url("triangular.png");
+			background-size:90px;
+		}
+		* {
+			font-family: Arial, Helvetica, sans-serif;
+			font-weight:300;
+		}
+		.container {
+			margin:auto;
+			width: 60%;
+			background-color:#EEE;
+			padding:20px;
+			min-height:100vh;
+		}
+		label {
+			margin-left:10px;
+		}
+		li {
+			font-size:20px;
+			line-height:40px;
+		}
+		ol div {
+			line-height:25px;
+		}
 	</style>
 </html>
