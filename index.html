@@ -32,6 +32,54 @@
 				<div><input id="3d" type="radio" name="4"><label for="3d">Hey you're not very professional.</label></div>
 				<div><input id="4d" type="radio" name="4"><label for="4d">Also be unprofessional.</label></div>
 			</ol>
+			<div id="1" class="result">
+				<div id="image1" class="img"></div>
+				<div class="result-text">
+					<h1>&#9733;&#9733;&#9733;&#9733;&#9733;</h1>
+					<h2>You are very professional!</h2>
+					<p>Wow what a professional! When people see you on the street they probably say, or at least think, "Hey that guy much more professional than me." You probably don't even need to practice being more professional as you already are.</p>
+				</div>
+			</div>
+			<div id="1" class="result">
+				<div id="image1" class="img"></div>
+				<div class="result-text">
+					<h1>&#9733;&#9733;&#9733;&#9733;&#9734;</h1>
+					<h2>You are mostly professional!</h2>
+					<p>You sure seem pretty professional but some people might disagree. For the most part you act professional but sometimes you slip up. Keep working on it and you will be the highest level of professionality. If that is even a word.</p>
+				</div>
+			</div>
+			<div id="1" class="result">
+				<div id="image1" class="img"></div>
+				<div class="result-text">
+					<h1>&#9733;&#9733;&#9733;&#9734;&#9734;</h1>
+					<h2>Well you aren't unprofessional.</h2>
+					<p>You certainly aren't the most professional person but atleast you are above average. While TheKingCam probably wouldn't be impressed, you would atleast seem average to him. You probably frequently recongize people on the street who are more professional than you.</p>
+				</div>
+			</div>
+			<div id="1" class="result">
+				<div id="image1" class="img"></div>
+				<div class="result-text">
+					<h1>&#9733;&#9733;&#9734;&#9734;&#9734;</h1>
+					<h2>You are unprofessional.</h2>
+					<p>While you aren't the least professional person, you certainly are below average. With a little effort you could become professional but it isn't very likely that you could become extremely professional. While you probably aren't frequently unprofessional in the comments, you probably have been atleast once.</p>
+				</div>
+			</div>
+			<div id="1" class="result">
+				<div id="image1" class="img"></div>
+				<div class="result-text">
+					<h1>&#9733;&#9734;&#9734;&#9734;&#9734;</h1>
+					<h2>You are very unprofessional!</h2>
+					<p>You are very unprofessional. People in public probably immediately disrespect you are clearly very unprofessional. You are certainly a disgrace to TheKingCam and most likely practice frequent unprofessionalism in the comments.</p>
+				</div>
+			</div>
+			<div id="1" class="result">
+				<div id="image1" class="img"></div>
+				<div class="result-text">
+					<h1>&#9734;&#9734;&#9734;&#9734;&#9734;</h1>
+					<h2>You are extremely unprofessional!</h2>
+					<p>You are probably the least professional person ever! It's a surprise that you aren't in jail for your unprofessionalism. You probably have no chance of ever becoming any level of professional ever. </p>
+				</div>
+			</div>
 		</div>
 	</body>
 	<style>
@@ -50,9 +98,9 @@
 		}
 		.container {
 			margin:auto;
-			width: 60%;
+			width: 50%;
 			background-color:#EEE;
-			padding:20px;
+			padding:30px;
 			min-height:100vh;
 		}
 		label {
@@ -65,5 +113,33 @@
 		ol div {
 			line-height:25px;
 		}
+		h2, h1 {
+			margin:0;
+		}
+		.result {
+			width:90%;
+			padding:5%;
+			margin:auto;
+			background-color:#444;
+			display:flex;
+			color:#EEE;
+		}
+		.result-text {
+			width:55%;
+			margin-left:5%;
+		}
+		.img {
+			height:350px;
+			width:40%;
+			background-position:center center !important;
+			margin:0;
+			padding:0;
+		}
+		#image1 {background:url("test.jpe");}
 	</style>
+	<script>
+		function getResults () {
+			
+		}
+	</script>
 </html>
