@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>How Professional Are You?</title>
+		<script src="jquery.min.js"></script>
 	</head>
 	<body>
 		<div class="container">
@@ -32,6 +33,7 @@
 				<div><input id="3d" type="radio" name="4"><label for="3d">Hey you're not very professional.</label></div>
 				<div><input id="4d" type="radio" name="4"><label for="4d">Also be unprofessional.</label></div>
 			</ol>
+			<button onclick="getResults()">Calculate</button>
 			<div id="1" class="result">
 				<div id="image1" class="img"></div>
 				<div class="result-text">
@@ -139,7 +141,16 @@
 	</style>
 	<script>
 		function getResults () {
-			
+			var values1 = [ 2,-1, 1,-1000];
+			var values2 = [ 1, 2, 0,-1000];
+			var values3 = [ 2,-1,-1,-1000];
+			var values4 = [-2,-1, 2,-1000];
+			var id1 = values1[document.querySelector('input[name="1"]:checked').id.substr(0,1) - 1];
+			var id2 = values2[document.querySelector('input[name="2"]:checked').id.substr(0,1) - 1];
+			var id3 = values3[document.querySelector('input[name="3"]:checked').id.substr(0,1) - 1];
+			var id4 = values4[document.querySelector('input[name="4"]:checked').id.substr(0,1) - 1];
+			var value = id1 + id2 + id3 + id4;
+			alert(value);
 		}
 	</script>
 </html>
